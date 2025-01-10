@@ -1,0 +1,47 @@
+Install Xampp & Composer
+
+Composer: https://getcomposer.org/
+Xampp: https://www.apachefriends.org/download.html
+
+php -v
+composer
+
+Laravel Install
+https://laravel.com/docs/11.x/installation
+
+composer global require laravel/installer
+
+laravel
+
+laravel new 1.Project01
+
+cd 1.Project01
+
+php artisan serve
+
+composer install --ignore-platform-req=ext-fileinfo
+
+composer install
+
+C:\Users\HP\AppData\Roaming\Composer\vendor\bin
+
+composer global require laravel/installer
+
+laravel --version
+
+laravel new project-name
+
+https://www.7-zip.org/
+
+php.ini
+
+extension=pdo_mysql
+extension=mysqli
+
+extension=fileinfo
+extension=curl
+extension=mbstring
+
+
+php artisan migrate
+
