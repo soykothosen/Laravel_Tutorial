@@ -45,3 +45,6 @@ extension=mbstring
 
 php artisan migrate
 
+php artisan make:controller UserController
+php artisan make:view viewname
+
