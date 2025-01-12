@@ -40,6 +40,7 @@
     </style>
 </head>
 <body>
+    @include('common.header')
     <h2>Input Form</h2>
     <form action="formsubmit" method="POST">
 
