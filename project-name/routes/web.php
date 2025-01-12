@@ -28,3 +28,12 @@ Route::get('/about/{name}', function ($name) {
 #Route::get('user',[UserController::class,'getUser']);
 
 Route::get('user/{name}',[UserController::class,'getUser']);
+
+Route::post('formsubmit',[UserController::class,'formdata']);
+
+Route::get('/getform', function () {
+    return view('form');
+});
+
+
+
